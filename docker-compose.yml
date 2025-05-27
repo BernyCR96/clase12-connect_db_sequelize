@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:15
+    container_name: base_datos_EDD
+    restart: always
+    environment:
+      POSTGRES_USER: user_galileo
+      POSTGRES_PASSWORD: galile0_2025
+      POSTGRES_DB: edd_galileo
+    ports:
+      - "2025:5432" # mi maquina local: contenedor
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
+
+
+  
