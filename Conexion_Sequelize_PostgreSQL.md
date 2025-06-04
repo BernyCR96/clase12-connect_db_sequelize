@@ -51,3 +51,4 @@ Para obtener más información sobre cómo definir modelos y trabajar con Sequel
 
 
 ## Repositorio
+- [Código trabajado en clase](https://github.com/BernyCR96/clase12-connect_db_sequelize.git)
